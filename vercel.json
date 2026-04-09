@@ -16,10 +16,7 @@
   ],
   "functions": {
     "api/index.js": {
-      "includeFiles": [
-        "PLANTILLA OFICIOS.docx",
-        "context/**"
-      ],
+      "includeFiles": "context/**",
       "maxDuration": 25
     }
   }

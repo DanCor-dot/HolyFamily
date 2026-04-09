@@ -111,7 +111,7 @@ const groq = process.env.GROQ_API_KEY ? new OpenAI({
 }) : null;
 
 // Verificación de Plantilla al iniciar
-const templatePath = getAssetPath("PLANTILLA OFICIOS.docx");
+const templatePath = getAssetPath("context/PLANTILLA OFICIOS.docx");
 if (fs.existsSync(templatePath)) {
     console.log(`> [OK] Plantilla Maestra detectada: ${templatePath}`);
 } else {

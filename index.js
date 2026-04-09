@@ -95,7 +95,7 @@ async function getHistory() {
 const genAI = process.env.GEMINI_API_KEY ? new GoogleGenerativeAI(process.env.GEMINI_API_KEY) : null;
 
 // Verificación de Plantilla al iniciar
-const templatePath = path.resolve(__dirname, "PLANTILLA OFICIOS.docx");
+const templatePath = path.resolve(__dirname, "context", "PLANTILLA OFICIOS.docx");
 if (fs.existsSync(templatePath)) {
     console.log(`> [OK] Plantilla Maestra detectada: ${templatePath}`);
 } else {
