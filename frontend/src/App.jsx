@@ -127,7 +127,7 @@ function App() {
           <HardHat className="text-safety-orange w-8 h-8" />
           <div className="hidden lg:block">
             <span className="block font-bold text-lg tracking-tight leading-none">ANTI-COPILOTO</span>
-            <span className="block text-[10px] text-safety-orange font-mono font-bold">v1.1.4 (GREEN LANTERN)</span>
+            <span className="block text-[10px] text-safety-orange font-mono font-bold">v1.2.0 (GALAXY)</span>
           </div>
         </div>
         
