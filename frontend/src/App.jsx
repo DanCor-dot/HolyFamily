@@ -14,7 +14,8 @@ import {
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:3001';
+// En producción (Vercel) usamos rutas relativas obligatoriamente.
+const API_BASE_URL = ''; 
 
 
 const CATEGORIES = [
