@@ -1,0 +1,19 @@
+# Dependencias
+node_modules/
+frontend/node_modules/
+
+# Variables de Entorno (CRÍTICO: No subir llaves API)
+.env
+
+# Archivos Locales de Datos (Ya migrados a Cloud)
+history.json
+history_backup.json
+
+# Archivos de Sistema/IDE
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Build del frontend
+frontend/dist/
+frontend/build/
