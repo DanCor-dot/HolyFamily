@@ -1,11 +1,11 @@
 {
   "name": "copiloto_app",
-  "version": "1.0.0",
-  "description": "COPILOTO SAGRADA FAMILIA - v1.0.0 (SUPERMAN)",
+  "version": "1.2.0",
+  "description": "COPILOTO SAGRADA FAMILIA - v1.2.0 (GALAXY) Cloud Ready",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "@echo off\ntitle COPILOTO SAGRADA FAMILIA - v1.0.0 (SUPERMAN)\necho ========================================================\necho      COPILOTO DE INTERVENTORIA - VERSION 1.0.0\necho                 CODIGO: SUPERMAN\necho ========================================================\necho.\necho [1/2] Iniciando servidor de inteligencia...\nstart \"Copiloto Backend\" cmd /c \"node index.js\""
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
