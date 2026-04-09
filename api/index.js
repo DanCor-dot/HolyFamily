@@ -19,6 +19,11 @@ const port = process.env.PORT || 3001;
 app.use(cors());
 app.use(express.json());
 
+// Ruta de diagnóstico rápida
+app.get('/api/test', (req, res) => {
+    res.json({ message: "Servidor operativo en Vercel", time: new Date().toISOString() });
+});
+
 // Configuraciones dinámicas para la nube (Vercel compatible)
 // En Vercel, process.cwd() apunta a la raíz del proyecto.
 // Agregamos redundancia para encontrar los archivos tanto localmente como en la nube.
